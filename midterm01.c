@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() 
+void main() 
 {
     float r1, r2, r3;
     float rSum;
@@ -24,5 +24,5 @@ int main()
     printf("Sum Resistance : %.2f\n", rSum);
     printf("+++++++++++++++++++++++++++++++\n");
 
-    return 0;
+    getch();
 }
